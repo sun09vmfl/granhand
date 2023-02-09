@@ -1,0 +1,48 @@
+.fixed {
+  display: flex;
+  justify-content: end;
+  font-family: 'SpoqaHanSansNeo', 'Noto Sans KR', 'pretendard', '맑은 고딕';
+  font-weight: bold;
+  color: #666666;
+  font-size: 13px;
+  width: 30vw;
+  height: 100vh;
+  position: relative;
+
+  nav {
+    .perfume1 {
+      line-height: 0;
+    }
+    .perfume2 {
+      display: flex;
+      color: #999999;
+      li {
+        line-height: 8px;
+        padding-right: 9px;
+      }
+    }
+    .fragrance {
+      display: flex;
+      color: #999999;
+      li {
+        line-height: 8px;
+        padding-right: 8px;
+        span {
+          color: #666666;
+        }
+      }
+    }
+    .sometime {
+      padding-top: 10px;
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 3px;
+        width: 300px;
+        height: 1px;
+        background-color: #afafaf;
+      }
+    }
+  }
+}

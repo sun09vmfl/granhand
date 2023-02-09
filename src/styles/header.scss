@@ -1,0 +1,49 @@
+header {
+  font-family: Helvetica, 'Noto Sans KR', 'pretendard', '맑은 고딕';
+  max-width: 1160px;
+  margin: auto;
+  height: 20vh;
+  h1 {
+    font-family: 'Noto Sans KR', 'pretendard', '맑은 고딕', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.1;
+    a {
+      font-size: 29px;
+    }
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    nav {
+      ul {
+        display: flex;
+        li {
+          font-weight: bold;
+          padding: 0 15px;
+        }
+        li:nth-child(2) {
+          color: #333333;
+        }
+        li:nth-child(3) {
+          color: #666666;
+        }
+        li:nth-child(4) {
+          color: #999999;
+        }
+        li:nth-child(5) {
+          color: #aaaaaa;
+        }
+        li:nth-child(6) {
+          color: #bbbbbb;
+        }
+        li:nth-child(7) {
+          color: rgba(000, 000, 000, 0.15);
+        }
+        li:nth-child(8) {
+          color: rgba(000, 000, 000, 0.15);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "GranhandItems": [
+    {
+      "id": "0",
+      "title": "Susie Salmin Hand",
+      "des": "수지살몬핸드크림",
+      "price": "25,000 KRW",
+      "imgUrl": "granhand0"
+    },
+    {
+      "id": "1",
+      "title": "Marine Orchid Hand",
+      "des": "마린오키드핸드크림",
+      "price": "25,000 KRW",
+      "imgUrl": "granhand1"
+    },
+    {
+      "id": "2",
+      "title": "Marine Orchid Hand",
+      "des": "마린오키드핸드워시",
+      "price": "25,000 KRW",
+      "imgUrl": "granhand2"
+    },
+    {
+      "id": "3",
+      "title": "Kyujang Hand Cream",
+      "des": "규장핸드크림",
+      "price": "25,000 KRW",
+      "imgUrl": "granhand3"
+    },
+    {
+      "id": "4",
+      "title": "Lucien Carr Hand",
+      "des": "루시엔 카 핸드크림",
+      "price": "25,000 KRW",
+      "imgUrl": "granhand4"
+    },
+    {
+      "id": "5",
+      "title": "Susie Salmin Hand",
+      "des": "수지살몬핸드워시",
+      "price": "25,000 KRW",
+      "imgUrl": "granhand5"
+    },
+    {
+      "id": "6",
+      "title": "Lucien Carr Hand",
+      "des": "루시엔 카 핸드워시",
+      "price": "25,000 KRW",
+      "imgUrl": "granhand6"
+    }
+  ]
+}
