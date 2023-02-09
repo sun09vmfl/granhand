@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/granhand/static/css/main.0cbb00df.css",
+    "main.js": "/granhand/static/js/main.0c774b5b.js",
+    "index.html": "/granhand/index.html",
+    "main.0cbb00df.css.map": "/granhand/static/css/main.0cbb00df.css.map",
+    "main.0c774b5b.js.map": "/granhand/static/js/main.0c774b5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cbb00df.css",
+    "static/js/main.0c774b5b.js"
+  ]
+}
