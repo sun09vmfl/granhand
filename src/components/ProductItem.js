@@ -1,15 +1,24 @@
 import { Link } from 'react-router-dom';
+import '../styles/productitem.scss';
 
 function ProductItem({ item }) {
   const path = process.env.PUBLIC_URL;
+
   return (
-    <div>
-      <Link to={`/products/${item.id}`}>
-        <h3>{item.title}</h3>
-        <img src={`${path}/images/${item.imgUrl}.jpg`} alt={item.title} width="250px" height="333.5px" />
+    <div className="main-items">
+      <Link to={`/${item.id}`}>
+        <figure>
+          <img src={`${path}/images/${item.imgUrl}.jpg`} alt={item.title} />
+          <figcaption>
+            <p>{item.des}</p>
+            <p>{item.gram}</p>
+          </figcaption>
+          <div className="title">
+            <h3>{item.title}</h3>
+            <p>{item.price}</p>
+          </div>
+        </figure>
       </Link>
-      <p>{item.des}</p>
-      <p>{item.price}</p>
     </div>
   );
 }

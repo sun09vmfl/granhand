@@ -2,51 +2,58 @@
   "GranhandItems": [
     {
       "id": "0",
-      "title": "Susie Salmin Hand",
-      "des": "수지살몬핸드크림",
+      "title": "Susie Salmin Hand Cream",
+      "des": "수지살몬 핸드크림",
       "price": "25,000 KRW",
+      "gram": "60g",
       "imgUrl": "granhand0"
     },
     {
       "id": "1",
-      "title": "Marine Orchid Hand",
-      "des": "마린오키드핸드크림",
+      "title": "Marine Orchid Hand Cream",
+      "des": "마린오키드 핸드크림",
       "price": "25,000 KRW",
+      "gram": "60g",
       "imgUrl": "granhand1"
     },
     {
       "id": "2",
-      "title": "Marine Orchid Hand",
-      "des": "마린오키드핸드워시",
+      "title": "Marine Orchid Hand Wash",
+      "des": "마린오키드 핸드워시",
       "price": "25,000 KRW",
+      "gram": "250g",
       "imgUrl": "granhand2"
     },
     {
       "id": "3",
       "title": "Kyujang Hand Cream",
-      "des": "규장핸드크림",
+      "des": "규장 핸드크림",
       "price": "25,000 KRW",
+      "gram": "60g",
       "imgUrl": "granhand3"
     },
     {
       "id": "4",
-      "title": "Lucien Carr Hand",
-      "des": "루시엔 카 핸드크림",
+      "title": "Lucien Carr Hand Cream",
+      "des": "루시엔카 핸드크림",
       "price": "25,000 KRW",
+      "gram": "60g",
       "imgUrl": "granhand4"
     },
     {
       "id": "5",
-      "title": "Susie Salmin Hand",
-      "des": "수지살몬핸드워시",
+      "title": "Susie Salmin Hand Wash",
+      "des": "수지살몬 핸드워시",
       "price": "25,000 KRW",
+      "gram": "250g",
       "imgUrl": "granhand5"
     },
     {
       "id": "6",
-      "title": "Lucien Carr Hand",
-      "des": "루시엔 카 핸드워시",
+      "title": "Lucien Carr Hand Wash",
+      "des": "루시엔카 핸드워시",
       "price": "25,000 KRW",
+      "gram": "250g",
       "imgUrl": "granhand6"
     }
   ]

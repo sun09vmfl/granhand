@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/footer.scss';
 
 function Footer() {
   return (
-    <>
+    <div className="bottom">
       <footer>
         <div class="footerTop">
           <p>
@@ -32,7 +33,7 @@ function Footer() {
           </ul>
         </div>
       </footer>
-    </>
+    </div>
   );
 }
 

@@ -3,7 +3,7 @@ import '../styles/sideMenu.scss';
 
 function SideMenu() {
   return (
-    <div className="fixed">
+    <div className="sticky">
       <nav>
         <ul className="perfume1">
           <li>

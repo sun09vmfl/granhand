@@ -1,4 +1,4 @@
-import data from './DB/initialData.json';
+import data from './DB/initialData';
 const { GranhandItems } = data;
 
 export function setGranhandItem() {

@@ -1,4 +1,4 @@
-.fixed {
+.sticky {
   display: flex;
   justify-content: end;
   font-family: 'SpoqaHanSansNeo', 'Noto Sans KR', 'pretendard', '맑은 고딕';
@@ -6,10 +6,13 @@
   color: #666666;
   font-size: 13px;
   width: 30vw;
-  height: 100vh;
+  height: 2000px;
   position: relative;
-
   nav {
+    height: 500px;
+    position: sticky;
+    top: 0;
+
     .perfume1 {
       line-height: 0;
     }
