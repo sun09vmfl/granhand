@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/granhand/static/css/main.0cbb00df.css",
-    "main.js": "/granhand/static/js/main.0c774b5b.js",
+    "main.css": "/granhand/static/css/main.d43cfda3.css",
+    "main.js": "/granhand/static/js/main.8ae6392a.js",
     "index.html": "/granhand/index.html",
-    "main.0cbb00df.css.map": "/granhand/static/css/main.0cbb00df.css.map",
-    "main.0c774b5b.js.map": "/granhand/static/js/main.0c774b5b.js.map"
+    "main.d43cfda3.css.map": "/granhand/static/css/main.d43cfda3.css.map",
+    "main.8ae6392a.js.map": "/granhand/static/js/main.8ae6392a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cbb00df.css",
-    "static/js/main.0c774b5b.js"
+    "static/css/main.d43cfda3.css",
+    "static/js/main.8ae6392a.js"
   ]
 }
