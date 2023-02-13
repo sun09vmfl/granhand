@@ -1,35 +1,36 @@
 .main {
-  position: relative;
+  display: flex;
+  justify-content: center;
   width: 100%;
-  .price {
-    width: 78.5%;
-    display: flex;
-    justify-content: end;
-    p {
-      padding-left: 10px;
-      color: #868686;
+  .mainBox {
+    .topBox {
+      width: 780px;
+      display: flex;
+      justify-content: space-between;
+      .num {
+        font-weight: bold;
+        color: #666666;
+        span {
+          color: #121212;
+        }
+      }
+      .price {
+        display: flex;
+        p {
+          padding-left: 10px;
+          color: #868686;
 
-      :hover {
-        color: #121212;
+          :hover {
+            color: #121212;
+          }
+        }
       }
     }
   }
-  .num {
-    position: absolute;
-    top: 0;
-    left: 35%;
-    font-weight: bold;
-    color: #666666;
-    span {
-      color: #121212;
-    }
-  }
+
   .main-img {
-    margin-top: 50px;
-    width: 60%;
-    position: absolute;
-    top: 0;
-    right: 5%;
+    // margin-top: 30px;
+    width: 780px;
     display: grid;
     grid-template-columns: 260px 260px 260px;
     gap: 2%;
