@@ -3,3 +3,118 @@
   margin: 0 auto;
   height: 100vh;
 }
+
+.container {
+  font-family: 'Noto Sans KR', 'SpoqaHanSansNeo', 'Pretendard Variable', sans-serif;
+  padding-top: 100px;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  height: 3500px;
+
+  .sellBox {
+    width: 100%;
+    display: flex;
+    margin-bottom: 180px;
+    .imgBox {
+      width: 50%;
+      img {
+        width: 505px;
+        height: 674px;
+      }
+    }
+    .side {
+      padding-left: 5%;
+      .priceBox {
+        h1 {
+          font-size: 16px;
+        }
+        p {
+          color: #999999;
+          font-size: 14px;
+          font-weight: 300;
+        }
+        p:first-child {
+          color: #666666;
+          font-size: 13px;
+        }
+      }
+      .shoppingBox {
+        padding-top: 50px;
+        p:first-child {
+          font-size: 14px;
+          color: #666666;
+        }
+        select {
+          width: 450px;
+          height: 50px;
+          border: 1px solid #a1a1a16c;
+        }
+      }
+      .num {
+        margin-top: 30px;
+        width: 450px;
+        height: 100px;
+        background-color: #e2e2e28e;
+        p {
+          font-size: 10px;
+        }
+      }
+      .buy {
+        display: flex;
+        gap: 5%;
+        margin-top: 30px;
+
+        button:first-child {
+          border: none;
+          background-color: #121212;
+          width: 220px;
+          height: 50px;
+          color: #fff;
+        }
+        button:nth-child(2) {
+          background-color: #fff;
+          width: 220px;
+          height: 50px;
+          border: 1px solid #a1a1a16c;
+        }
+      }
+    }
+  }
+  .info {
+    margin: 0;
+    width: 100%;
+
+    .line {
+      width: 100%;
+      height: 0.3px;
+      background-color: #a1a1a16c;
+    }
+    h1 {
+      color: #666666;
+      margin: 50px 0;
+    }
+    p {
+      font-weight: 200;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 30px 0;
+    }
+    .imgBox {
+      display: flex;
+      gap: 5%;
+      margin-bottom: 180px;
+      img {
+        width: 565px;
+        height: 753.7px;
+      }
+    }
+    p {
+      font-family: 'Noto Sans KR', 'SpoqaHanSansNeo', 'Pretendard Variable', sans-serif;
+    }
+    span {
+      vertical-align: baseline;
+      margin-left: 30px;
+      font-family: sans-serif;
+    }
+  }
+}

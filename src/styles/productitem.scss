@@ -1,5 +1,19 @@
 .main {
   position: relative;
+  width: 100%;
+  .price {
+    width: 78.5%;
+    display: flex;
+    justify-content: end;
+    p {
+      padding-left: 10px;
+      color: #868686;
+
+      :hover {
+        color: #121212;
+      }
+    }
+  }
   .num {
     position: absolute;
     top: 0;
