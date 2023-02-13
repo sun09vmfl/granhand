@@ -1,9 +1,11 @@
-import { Navigate, useNavigate, useParams } from 'react-router-dom';
+import { Link, Navigate, useNavigate, useParams } from 'react-router-dom';
 import { getItemId, addWishlist } from '../assets/';
+import { setGranhandItem } from '../assets';
 
 import '../styles/productpage.scss';
 
 function ProductPage() {
+  const GranhandItems = setGranhandItem();
   const path = process.env.PUBLIC_URL;
   const { itemId } = useParams();
   // 클릭한 제품의 번호의 데이터만 불러오는 함수
@@ -114,11 +116,20 @@ function ProductPage() {
           주의 사항
           <span>{item.caution}</span>
         </p>
+        <div className="line"></div>
+        <h1>Recommand</h1>
+        <Link to={`/${item.id}`}>
+          <figure>
+            <img src={`${path}/images/${item.imgUrl}.jpg`} alt={item.title} />
+            <figcaption>
+              <p className="des">{item.title}</p>
+              <p className="des">{item.price}</p>
+              <p className="des">{item.des}</p>
+              <p className="des">{item.gram}</p>
+            </figcaption>
+          </figure>
+        </Link>
       </section>
-
-      {/* <section>
-        <p>Recommand</p>
-      </section> */}
     </div>
   );
 }

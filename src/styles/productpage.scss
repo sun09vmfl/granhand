@@ -3,9 +3,9 @@
   padding-top: 100px;
   width: 60%;
   margin: 0 auto;
-  height: 3200px;
-  max-width: 1990px;
-  min-width: 1240;
+  height: 3500px;
+  max-width: 1940px;
+  min-width: 1220px;
 
   .sellBox {
     display: flex;
@@ -18,7 +18,7 @@
       }
     }
     .side {
-      padding-left: 40px;
+      padding-left: 60px;
       .priceBox {
         h1 {
           font-size: 16px;
@@ -107,6 +107,33 @@
       vertical-align: baseline;
       margin-left: 30px;
       font-family: sans-serif;
+    }
+  }
+  figure {
+    margin: 0;
+    img {
+      width: 260px;
+    }
+    figcaption {
+      margin: 0;
+    }
+    .des {
+      margin: 5px;
+    }
+    .des:first-child {
+      padding-top: 8px;
+    }
+
+    .des:nth-child(2) {
+      color: #666666;
+    }
+    .des:nth-child(3) {
+      color: #666666;
+      font-size: 12px;
+    }
+    .des:nth-child(4) {
+      color: #666666;
+      font-size: 10px;
     }
   }
 }
