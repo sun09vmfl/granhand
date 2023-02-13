@@ -1,10 +1,13 @@
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom';
 import { getItemId, addWishlist } from '../assets/';
 import { setGranhandItem } from '../assets';
+import { useState } from 'react';
+import { FaPlus, FaMinus } from 'react-icons/fa';
 
 import '../styles/productpage.scss';
 
 function ProductPage() {
+  const [count, setCount] = useState(1);
   const GranhandItems = setGranhandItem();
   const path = process.env.PUBLIC_URL;
   const { itemId } = useParams();
@@ -21,6 +24,16 @@ function ProductPage() {
     alert(`장바구니에 저장되었습니다.`);
     addWishlist(item.id);
     navigate('/wishlist');
+  };
+
+  // 상세페이지에서 물건 수량 조절
+  const handleQuantity = type => {
+    if (type === 'plus') {
+      setCount(count + 1);
+    } else {
+      if (count === 1) return;
+      setCount(count - 1);
+    }
   };
 
   return (
@@ -45,7 +58,27 @@ function ProductPage() {
 
             <div className="num">
               <p>수량</p>
-              <p>총 상품금액(1개)</p>
+              <div className="numBox">
+                <FaMinus onClick={() => handleQuantity('minus')} />
+                <div class="count">
+                  <span>{count}</span>
+                </div>
+                <FaPlus onClick={() => handleQuantity('plus')} />
+              </div>
+              <div>
+                <div>
+                  <span>총 상품 금액</span>
+                </div>
+                <div>
+                  <span>
+                    총 수량 <span>{count}개</span>
+                  </span>
+                  <span>
+                    {item.price * count}
+                    <span>원</span>
+                  </span>
+                </div>
+              </div>
             </div>
 
             <div className="buy">
