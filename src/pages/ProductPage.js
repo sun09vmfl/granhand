@@ -54,6 +54,7 @@ function ProductPage() {
             <p>쇼핑백</p>
             <select name="shopping">
               <option value="op1">쇼핑백 추가 구매 Small(18x27x9)</option>
+              <option value="op2"> + 1,000 </option>
             </select>
 
             <div className="num">

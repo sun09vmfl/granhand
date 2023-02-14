@@ -48,13 +48,13 @@
       .num {
         border-radius: 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 30px;
         width: 450px;
         height: 120px;
         background-color: #e2e2e28e;
         p {
-          padding: 10px 0 5px 20px;
+          padding: 10px 0 5px 10px;
           font-size: 10px;
         }
         .numbering {
