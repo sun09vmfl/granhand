@@ -4,9 +4,9 @@ const { GranhandItems } = data;
 export function setGranhandItem() {
   return GranhandItems;
 }
-// 클릭한 제품의 번호와 러쉬 아이템 데이터 문서의 id와 일치하면 반환
+
 export function getItemId(itemId) {
-  return GranhandItems.find(lushItem => lushItem.id === itemId);
+  return GranhandItems.find(GranhandItem => GranhandItem.id === itemId);
 }
 
 const WISHLIST_KEY = '그랑핸드_장바구니';

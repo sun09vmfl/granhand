@@ -15,7 +15,7 @@ function ProductItem({ item }) {
           </figcaption>
           <div className="title">
             <h3>{item.title}</h3>
-            <p>{item.price}</p>
+            <p>{item.price} KRW</p>
           </div>
         </figure>
       </Link>

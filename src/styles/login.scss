@@ -1,0 +1,65 @@
+.login {
+  display: flex;
+  justify-content: center;
+  max-width: 1920px;
+  min-width: 1240px;
+  height: 800px;
+  width: 60%;
+  margin: auto;
+  .inputForm {
+    display: flex;
+    flex-direction: column;
+    .log {
+      margin: 1px 0;
+      width: 358px;
+      height: 40px;
+    }
+    .check {
+      margin: 20px 0;
+    }
+    .button {
+      button {
+        width: 365px;
+        height: 45px;
+      }
+      .kakao {
+        border: none;
+        background-color: #ffeb00;
+        cursor: pointer;
+      }
+      .notMem {
+        border: 1px solid #666666;
+        color: #fff;
+        background-color: #999999;
+        cursor: pointer;
+      }
+    }
+    .join {
+      margin-top: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      button {
+        cursor: pointer;
+        border: transparent 1px solid;
+        background-color: transparent;
+      }
+    }
+    .or {
+      margin-top: 30px;
+      width: 365px;
+      display: flex;
+      justify-content: center;
+
+      p {
+        margin: 15px;
+        transform: translateY(-23px);
+      }
+      .border {
+        background-color: #999999;
+        height: 1px;
+        width: 150px;
+      }
+    }
+  }
+}

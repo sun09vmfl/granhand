@@ -45,7 +45,7 @@ function ProductPage() {
         <section className="side">
           <div className="priceBox">
             <h1>{item.title}</h1>
-            <p>{item.price}</p>
+            <p>{item.price}KRW</p>
             <p>{item.des}</p>
             <p>{item.gram}</p>
           </div>
@@ -57,25 +57,31 @@ function ProductPage() {
             </select>
 
             <div className="num">
-              <p>수량</p>
-              <div className="numBox">
-                <FaMinus onClick={() => handleQuantity('minus')} />
-                <div class="count">
-                  <span>{count}</span>
+              <div className="numbering">
+                <p>수량</p>
+                <div className="numBox">
+                  <div className="minus">
+                    <FaMinus onClick={() => handleQuantity('minus')} />
+                  </div>
+                  <div class="count">
+                    <span>{count}</span>
+                  </div>
+                  <div className="plus">
+                    <FaPlus onClick={() => handleQuantity('plus')} />
+                  </div>
                 </div>
-                <FaPlus onClick={() => handleQuantity('plus')} />
               </div>
-              <div>
-                <div>
+              <div className="sell">
+                <div className="allPrice">
                   <span>총 상품 금액</span>
                 </div>
-                <div>
-                  <span>
+                <div className="allNum">
+                  <span className="counting">
                     총 수량 <span>{count}개</span>
                   </span>
-                  <span>
+                  <span className="counting">
                     {item.price * count}
-                    <span>원</span>
+                    <span>KRW</span>
                   </span>
                 </div>
               </div>

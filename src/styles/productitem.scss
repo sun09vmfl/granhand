@@ -16,11 +16,13 @@
       }
       .price {
         display: flex;
-        p {
+        button {
           padding-left: 10px;
           color: #868686;
-
-          :hover {
+          border: none;
+          background-color: transparent;
+          cursor: pointer;
+          &:hover {
             color: #121212;
           }
         }

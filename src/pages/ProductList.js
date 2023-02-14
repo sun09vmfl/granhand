@@ -1,7 +1,6 @@
 import ProductItem from '../components/ProductItem';
 import { setGranhandItem } from '../assets';
 import SideMenu from '../components/SideMenu';
-import { Link } from 'react-router-dom';
 
 function ProductList() {
   const GranhandItems = setGranhandItem();
@@ -15,15 +14,9 @@ function ProductList() {
             Body <span>14</span>
           </p>
           <div className="price">
-            <p>
-              <Link to="/">낮은 가격 순</Link>
-            </p>
-            <p>
-              <Link to="/">높은 가격 순</Link>
-            </p>
-            <p>
-              <Link to="/">판매 순</Link>
-            </p>
+            <button>낮은 가격 순</button>
+            <button>높은 가격 순</button>
+            <button>판매 순</button>
           </div>
         </div>
 
