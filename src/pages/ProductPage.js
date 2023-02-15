@@ -14,7 +14,9 @@ function ProductPage() {
   // 클릭한 제품의 번호의 데이터만 불러오는 함수
   const item = getItemId(itemId);
   const navigate = useNavigate();
-
+  const price = item.price.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ',');
+  const countPrice = item.price * count;
+  const priceNum = countPrice.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ',');
   console.log(item);
 
   if (!item) {
@@ -23,7 +25,7 @@ function ProductPage() {
   const handleAddWishList = () => {
     alert(`장바구니에 저장되었습니다.`);
     addWishlist(item.id);
-    navigate('/wishlist');
+    navigate('/cart');
   };
 
   // 상세페이지에서 물건 수량 조절
@@ -45,7 +47,7 @@ function ProductPage() {
         <section className="side">
           <div className="priceBox">
             <h1>{item.title}</h1>
-            <p>{item.price}KRW</p>
+            <p>{price}KRW</p>
             <p>{item.des}</p>
             <p>{item.gram}</p>
           </div>
@@ -81,7 +83,7 @@ function ProductPage() {
                     총 수량 <span>{count}개</span>
                   </span>
                   <span className="counting">
-                    {item.price * count}
+                    {priceNum}
                     <span>KRW</span>
                   </span>
                 </div>

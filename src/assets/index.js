@@ -21,6 +21,6 @@ export function delWishlist(itemId) {
   localStorage.setItem(WISHLIST_KEY, JSON.stringify(wishlist));
 }
 
-export function getWishlist() {
+export function getCart() {
   return GranhandItems.filter(item => wishlist[item.id]);
 }
